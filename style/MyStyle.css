@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../src/main02.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    width: 30%;
+    background: #00a087;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin: auto;
+}
+
+.heading {
+    padding: 10px;
+    margin:45px auto;
+    text-align: center;
+    color: black;
+
+
+
+}
+
+#h2 {
+    font-size: 200%;
+    font-family: "Roboto", sans-serif;
+}
+
+#para {
+    font-size: 120%;
+    font-family: Candara, sans-serif;
+    color: #1a1a1a;
+    font-weight: 800;
+}
+
+span {
+    font-size: 300%;
+    color: goldenrod;
+}

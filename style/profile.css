@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+
+
+.button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    background: #4CAF50;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin: auto;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.side-profile {
+    background: goldenrod;
+    /*height: 240px;*/
+    /*width: 150px;*/
+    margin: auto;
+    text-align: center;
+}
