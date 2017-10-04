@@ -62,7 +62,7 @@ if (isset($_POST['send'])) {
 
         if (mail($to, $subject, $message, $headers)) {
 
-            header("location: ../submitCode.php");
+            header("location: ../../submitCode.php");
         } else {
             die("Error!" . mysqli_error($connection));
         }
@@ -71,7 +71,7 @@ if (isset($_POST['send'])) {
     } else {
 
         $_SESSION['errorMail'] = 1;
-        header("location: ../resetPass.php");
+        header("location: ../../resetPass.php");
     }
 
 

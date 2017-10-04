@@ -13,10 +13,10 @@ if (isset($_POST['submitCode'])) {
     $userCode = $_POST['resetCode'];
 
     if ($_SESSION['resetCode'] == $userCode) {
-        header("location: ../updatePass.php");
+        header("location: ../../updatePass.php");
     } else {
         $_SESSION['wrongCode'] = 1;
-        header("location: ../submitCode.php");
+        header("location: ../../submitCode.php");
     }
 }
 
@@ -38,7 +38,7 @@ if (isset($_POST['resendCode'])) {
 
     if (mail($to, $subject, $message, $headers)) {
 
-        header("location: ../submitCode.php");
+        header("location: ../../submitCode.php");
     } else {
         die("Error!" . mysqli_error($connection));
     }

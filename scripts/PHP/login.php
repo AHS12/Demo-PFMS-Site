@@ -69,17 +69,17 @@ if (isset($_POST['Login'])) {
             $_SESSION['userImg'] = $db_userImg;
             $_SESSION['userRole'] = $db_userRole;
 
-            header("location: ../profile.php");
+            header("location: ../../profile.php");
         } else {
 
             $_SESSION['errorMsg'] = 1;
-            header("location: ../login.php");
+            header("location: ../../login.php");
 
         }
 
     } else {
         $_SESSION['errorAcc'] = 1;
-        header("location: ../login.php");
+        header("location: ../../login.php");
     }
 
 

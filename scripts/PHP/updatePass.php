@@ -34,5 +34,5 @@ if (isset($_POST['password'])) {
 
     $_SESSION['successPassUp'] = 1;
 
-    header("location: ../login.php");
+    header("location: ../../login.php");
 }
