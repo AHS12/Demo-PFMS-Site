@@ -12,6 +12,12 @@ In BackEnd: PHP & Mysql Database.
 
 I didn't did any refactoring in my code...
 
+some features:
+
+Send & Resend email to user with password verification code
+
+saving password with encrypted formate
+
 #Bugs:
 No bug Found in local Server....
 
